@@ -1,13 +1,9 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: estebanbautista
- * Date: 9/01/16
- * Time: 11:38 PM
- */
+use Faker\Generator;
 use TeachMe\Entities\User;
 use Faker\Factory as Faker;
+
 
 class UserTableSeeder extends BaseSeeder{
 
